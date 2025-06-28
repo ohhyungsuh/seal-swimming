@@ -1,29 +1,22 @@
-# Lovely Seal Swimming
+# Flappy Bird Mocking
 
-Unity WebGL로 제작한 귀여운 물개 수영 애니메이션/게임입니다.
+Unity로 Flappy Bird 클론을 제작하며, **게임 기획부터 모든 그래픽 요소를 직접 그림으로 하나씩 제작**한 연습용 프로젝트입니다.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/965d072c-2508-4509-9c55-0e9c8539021a/deploy-status)](https://app.netlify.com/sites/lovelysealswimming/deploys)
-
----
+게임 내 배경, 캐릭터, 장애물, UI 요소까지 전부 직접 디자인하여 구현하였고, Unity 엔진과 WebGL 빌드를 통해 웹 배포가 가능한 형태로 완성하였습니다.
 
 ## 데모
 
-👉 [실행하러 가기](https://lovelysealswimming.netlify.app)
+[Netlify에서 실행](https://lovelysealswimming.netlify.app)
 
----
+## 폴더 구성
 
-## 구성
+- `Build/`, `TemplateData/`, `index.html` : Unity WebGL 빌드 결과물
+- `Seal5.unitypackage` : Unity 프로젝트 에셋 패키지
 
-- `Build/`, `TemplateData/`, `index.html` : Unity WebGL 빌드 파일
-- `Seal5.unitypackage` : Unity 에셋 패키지
+## 배포
 
----
+본 프로젝트는 Netlify를 통해 `main` 브랜치 Push 시 자동 배포되며, 웹 브라우저에서 바로 실행 가능합니다.
 
-## 로컬 실행 방법
+## 라이선스
 
-Unity WebGL은 보안(CORS) 문제로 파일을 직접 열어 실행할 수 없으므로, 다음과 같이 실행합니다.
-
-### Python HTTP Server
-
-```bash
-python -m http.server 8000
+MIT License
